@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="support.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&display=swap" rel="stylesheet">
+<body>
+    <section class="div_section">
+        <div class="overlay"></div>
+    </section>
+    <div class="navbar">
+        <div class="bird">
+            <img src="bird.png" alt="bird picture">
+        </div>
+        <p id="church_name"><a href="home.html">Cornerstone</a></p>
+        <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li id="ministry"><a href="ministry.html">Ministries</a></li>
+            <li><a href="community.html">Community</a></li>
+        </ul>
+    </div>
+    <div class="first_row hidden">
+        <div class="community_card_one">
+            <img src="donations.jpg" id="events">
+            <div class="white_background">
+                <p class="box_content date">Donations</p>
+                <p class="box_content description">Your generous support enables our church to fund ministries, outreach programs, and community initiatives that make a meaningful impact.</p>
+                <button class="box_content learn_more">Sign Up</button>
+            </div>
+        </div>
+        <div class="community_card_one">
+            <img src="donations.jpg" id="events">
+            <div class="white_background">
+                <p class="box_content date">Volunteering</p>
+                <p class="box_content description">Serve with us by joining prayer circles, assisting with events, or using your gifts to support our church and community.</p>
+                <button class="box_content learn_more" id="volunteer_sign_up">Sign Up</button>
+            </div>
+        </div>
+        <div class="community_card_one">
+            <img src="donations.jpg" id="events">
+            <div class="white_background">
+                <p class="box_content date">Pastoral Counseling</p>
+                <p class="box_content description">Our pastoral counseling team offers spiritual guidance, prayer, and support to help you navigate life’s challenges with faith.</p>
+                <button class="box_content learn_more" id="pastor_sign_up">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <p class="faq hidden">FAQs</p>
+        <div class="dropdown">
+            <div class="wrapper hidden">
+                <div class="collapsible">
+                    <input type="checkbox" id="collapsible-head-1">
+                <label for="collapsible-head-1">What are Cornerstone Church’s service times?</label>
+                <div class="collapsible-text">
+                    <p>
+                        Cornerstone Church holds services every Sunday at 9:00 AM and 11:00 AM, with a midweek service on Wednesdays at 7:00 PM. Special holiday services and events are announced on the church’s website and social media.
+                    </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="wrapper wrapper_two hidden">
+                <div class="collapsible">
+                    <input type="checkbox" id="collapsible-head-2">
+                <label for="collapsible-head-2">How can I get involved at Cornerstone Church?</label>
+                <div class="collapsible-text">
+                    <p>
+                        You can get involved by joining a small group, volunteering in various ministries, or attending newcomer events. Visit our welcome center after a service or check our website for upcoming opportunities.
+                    </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="wrapper wrapper_two hidden">
+                <div class="collapsible">
+                    <input type="checkbox" id="collapsible-head-3">
+                <label for="collapsible-head-3">How can I give online?</label>
+                <div class="collapsible-text">
+                    <p>
+                        You can give online through our secure giving portal on the church website using a debit/credit card or bank transfer. Recurring donations and one-time gifts can be set up easily through your online account.
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="grey_bg">
+        <p class="text hidden" id="contact">Contact us</p>
+        <p class="text hidden">Location: Cornerstone Church 123 Faith Avenue, City, State, ZIP</p>
+        <p class="text hidden">Phone: (123) 456-7890</p>
+        <p class="text hidden">Email: info@cornerstonechurch.org</p>
+        <p class="text hidden">Office Hours:</p>
+        <p class="text hidden">Monday – Friday: 9:00 AM – 5:00 PM</p>
+        <div class="white_line hidden"></div>
+        <p class="text hidden" id="connect_with_us">Connect With Us:</p>
+        <div class="images_icons hidden">
+            <img class="images" id="youtube" src="youtube.png">
+            <img class="images" id="instagram" src="instagram.png">
+            <img class="images" id="facebook" src="facebook.png">
+        </div>
+    </section>
+    <script src="show_hidden.js"></script>
+</body>
+</html>
