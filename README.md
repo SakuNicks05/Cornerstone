@@ -14,7 +14,7 @@ WEBPAGES:
    - Upcoming events and programs
    - past event highlights
    - the website's newsletter
-4. ministries - This webpage displays all the ministries of the church and contains a call-to-action button to get involved.
+4. ministries
 
    Displays the following:
    - ministries of the church (women, men, children, music, youth, evangelist)
