@@ -1,3 +1,5 @@
+The Cornerstone church website aims to provide information about the church's history, events, ministries, and other activities that are involved in the community. With a clean user interface, it makes the user experience much easier via smooth and easy navigation through the different navigation links that are provided.
+
 GENERAL FEAUTURES:
 - image galleries
 - scrollable cards
