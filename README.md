@@ -1,5 +1,7 @@
 INSTRUCTIONS TO RUN WEBSITE:
-- Copy paste the files into your editor (preferably VS code) then boom, run live server
+1. Ensure that you have "live server" downloaded
+2. Copy paste the the files and pictures into the editor (preferably VS code)
+3. Run "live server"
 
 The Cornerstone church website aims to provide information about the church's history, events, ministries, and other activities that are involved in the community. With a clean user interface, it makes the user experience much easier via smooth and easy navigation through the different navigation links that are provided.
 
